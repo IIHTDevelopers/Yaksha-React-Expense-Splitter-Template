@@ -1,0 +1,39 @@
+{
+  "participants": [
+    {
+      "id": 1,
+      "name": "Alice"
+    },
+    {
+      "id": 2,
+      "name": "Bob"
+    },
+    {
+      "id": 3,
+      "name": "Charlie"
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "description": "Dinner",
+      "amount": 120,
+      "payer": "Alice",
+      "dividedAmong": [
+        "Alice",
+        "Bob",
+        "Charlie"
+      ]
+    },
+    {
+      "id": 2,
+      "description": "Car Rental",
+      "amount": 200,
+      "payer": "Bob",
+      "dividedAmong": [
+        "Alice",
+        "Bob"
+      ]
+    }
+  ]
+}
